@@ -5,7 +5,7 @@
 2. Create a new folder in VSCode (you can name it anything). </br>
 3. In the folder, create the files: .env, app.py, requirements.txt (or you can just upload all the files from this repo under the section: "LLM Chatbot VSCode"). </br>
 </br>
-#### OPTIONAL: </br>
+### OPTIONAL: </br>
 - If you create the files instead of uploading them, copy paste all the content of each respective file from this repo into the files created on VSCode. </br>
 </br>
 5. In the ".env" file enter your personal GROQ API key, in place of "your key". </br>
