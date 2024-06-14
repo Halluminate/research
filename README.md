@@ -11,4 +11,4 @@ OPTIONAL:
   https://console.groq.com/keys </br>
 7. Opne "View" in VSCode and open "Terminal", write "streamlit run app.py" </br>
 8. A new tab in your browser will open with the chatbot running, you can select model of the chatbot from the left hand pannel: two models are available: Mixtral and Llama2. </br>
-
+9. To close the app, press "CTRL+C"(for windows users) in your Terminal of VS Code. 
