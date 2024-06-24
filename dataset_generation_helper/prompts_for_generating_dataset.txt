@@ -1,0 +1,10 @@
+1. Give 30 question-answers-topics triplets. You should sample questionss for different topics from the document 
+
+2. Generated a few question-answer pairs which can help us asses hallucination issues. I want you to create a few questions that cannot be answered based on the document.
+
+3. Create questions-answers-topics that could be answered based on information from different topics.
+
+4. Create a question-answers where user is asking a question under which section he can find information about his queries. The answers should be sections where the user can find answers for his queries.
+
+
+A manual review of the dataset was done to ensure that ChatGpt itself was not hallucinating.

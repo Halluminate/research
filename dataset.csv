@@ -1,0 +1,36 @@
+question,answer,topic,dataset_type
+What does the insurance cover in case of fire damage to my car?,Fire damage to your car is covered under the market value.,Fire and Theft,qa
+Am I covered for theft if I leave my car unlocked?,"No, claims for theft or attempted theft will not be paid if the car is left unlocked.",FAQs,qa
+How much will Churchill pay if my car's windscreen is damaged?,The cost of repairing or replacing the car's windscreen up to its UK market value.,Windscreen Damage,qa
+Who is eligible for a courtesy car?,"A courtesy car is provided to those whose car is being repaired by an approved repairer, subject to availability.",Courtesy Car,qa
+Is there a specific procedure to follow when making a claim?,"Yes, you should provide your personal details, policy number, and car registration number, among other required information.",Making a Claim,qa
+What types of damage are not covered by the policy?,"Mechanical or electrical failure, wear and tear, and damage to tyres caused by braking are not covered.",Losses We Don’t Cover,qa
+Can I drive other cars under my policy?,The certificate of motor insurance will specify who is covered to drive other cars.,FAQs,qa
+What is the maximum cover provided for property damage?,"The insurance covers up to £20,000,000 per accident for property damage.",Liability,qa
+Are there any benefits provided for personal accidents?,"Yes, the policy includes personal accident benefits up to £10,000.",Personal Benefits,qa
+What does Motor Legal Cover include?,It includes coverage for legal costs and expenses for motoring offences and contract disputes.,Motor Legal Cover,qa
+Does the policy provide coverage for pets injured in a car accident?,The document does not specify coverage for pets injured in car accidents.,,hallucination_check
+Can I get a discount on my premium if I have multiple cars insured with Churchill?,The document does not discuss discounts for insuring multiple cars with Churchill.,,hallucination_check
+What are the age restrictions for qualifying for Motor Legal Cover?,The document does not mention any age restrictions for qualifying for Motor Legal Cover.,,hallucination_check
+Is there a loyalty program available for long-term policyholders?,The document does not provide information about a loyalty program for long-term policyholders.,,hallucination_check
+How does Churchill handle coverage for vehicles with autonomous driving features?,"While the document mentions coverage for automated cars, it does not detail how Churchill specifically handles all autonomous driving features.",,hallucination_check
+What are the consequences of filing more than three claims in a year?,The document does not detail the consequences of filing more than three claims in a year.,,hallucination_check
+Does the insurance cover the cost of environmental cleanup in case of an accident?,The document does not mention coverage for environmental cleanup costs after an accident.,,hallucination_check
+Are there any benefits provided for using eco-friendly vehicles under this policy?,The document does not specify any special benefits for using eco-friendly or hybrid vehicles.,,hallucination_check
+"If I have an accident in a courtesy car provided by Churchill, what am I covered for?","You are covered for any damages to the courtesy car as well as third-party liabilities, similar to the coverage on your own car, under the conditions specified in the 'Courtesy Car' and 'Liability' sections.","Courtesy Car, Liability",cross_reference
+How does Churchill handle claims for windscreen damage when I am using a non-approved repairer?,"If you use a non-approved repairer for windscreen repairs, Churchill will cover the costs up to the amount specified in your car insurance details, as described in the 'Windscreen Damage' and 'Making a Claim' sections.","Windscreen Damage, Making a Claim",cross_reference
+What documentation do I need to provide if I want to claim for theft under the motor legal cover?,"You need to provide a police report and any relevant legal documents, as outlined in the 'Motor Legal Cover' and 'Fire and Theft' sections.","Motor Legal Cover, Fire and Theft",cross_reference
+Can I drive my car abroad and what are the insurance implications?,"Yes, you can drive your car abroad under the same conditions covered in the policy, but you need to inform Churchill to ensure all policy conditions are met, as detailed in 'Where You Can Drive' and 'Personal Benefits'.","Where You Can Drive, Personal Benefits",cross_reference
+What steps should I follow if I need to make a claim for an accident that includes personal injuries?,"You should contact Churchill immediately to report the accident, provide all necessary details, and follow their instructions for claims processing, which includes potential personal injury claims covered under 'Making a Claim' and 'Personal Benefits'.","Making a Claim, Personal Benefits",cross_reference
+How are new car replacements handled if the car is involved in an accident outside the UK?,"New car replacements are handled under the policy's terms, but you must ensure that the accident is reported and processed as per Churchill's guidelines, which may involve aspects covered under 'Personal Benefits' and 'Where You Can Drive'.","Personal Benefits, Where You Can Drive",cross_reference
+"If my car is stolen, what process should I follow to claim for a replacement car?","Report the theft to the police and Churchill immediately, provide all required documentation, and follow the claims process outlined under 'Fire and Theft' and 'Guaranteed Hire Car Plus' for possible car replacement.","Fire and Theft, Guaranteed Hire Car Plus",cross_reference
+Where can I find information about what to do if my car gets stolen?,Fire and Theft,Fire and Theft,retrival
+In which section can I learn about the coverage for damage to other people's property in an accident?,Liability,Liability,retrival
+Where should I look to understand the process for making a claim in case of an accident?,Making a Claim,Making a Claim,retrival
+Which section covers details about using my car abroad?,Where You Can Drive,Where You Can Drive,retrival
+Where can I find the terms for legal coverage when I’m involved in a motoring dispute?,Motor Legal Cover,Motor Legal Cover,retrival
+"If I need a courtesy car while my vehicle is being repaired, which section should I refer to?",Courtesy Car,Courtesy Car,retrival
+Where do I look for information on what’s not covered by my policy?,Losses We Don’t Cover,Losses We Don’t Cover,retrival
+Which section should I consult for details on windscreen damage coverage?,Windscreen Damage,Windscreen Damage,retrival
+Where is the information on how to handle an accident involving personal injuries?,Personal Benefits,Personal Benefits,retrival
+"For details on protecting my no claim discount, which section provides the information?",Protected No Claim Discount,Protected No Claim Discount,retrival

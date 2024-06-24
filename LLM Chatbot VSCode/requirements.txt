@@ -1,7 +1,0 @@
-streamlit
-langchain
-python-dotenv
-langchain-groq
-pandas
-sqlite3
-transformers
