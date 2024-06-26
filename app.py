@@ -9,10 +9,19 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_community.vectorstores import FAISS
 from groq import Groq
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Create data directory if it doesn't exist
 data_dir = 'data'
 os.makedirs(data_dir, exist_ok=True)
+
+# Get API keys from environment variables
+openai_api_key = os.getenv("OPENAI_API_KEY")
+groq_api_key = os.getenv("GROQ_API_KEY")
+
 
 # Initialize or get the current session state for the conversation and documents
 if 'conversation' not in st.session_state:
@@ -20,15 +29,12 @@ if 'conversation' not in st.session_state:
 if 'documents' not in st.session_state:
     st.session_state.documents = []
 
-# Load environment variables
-os.environ["OPENAI_API_KEY"] = "sk-proj-P7ZrB0WHp2LCnz0UaqwFT3BlbkFJ89eOZu6wDkGbxacuI1ww"  # Put your key here 
 
 # Set up the RAG components
 embeddings = OpenAIEmbeddings()
 # llm = ChatOpenAI(model_name='gpt-3.5-turbo')
 
 # Initialize Groq API
-groq_api_key = "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"  # Replace with your actual Groq API key
 model = 'llama3-8b-8192'
 llm = ChatGroq(
             groq_api_key=groq_api_key, 
