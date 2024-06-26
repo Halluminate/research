@@ -2,11 +2,13 @@ import streamlit as st
 import os
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
+from langchain_groq import ChatGroq
 from langchain.chains import create_retrieval_chain
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_community.vectorstores import FAISS
+from groq import Groq
 
 # Create data directory if it doesn't exist
 data_dir = 'data'
@@ -19,11 +21,21 @@ if 'documents' not in st.session_state:
     st.session_state.documents = []
 
 # Load environment variables
-os.environ["OPENAI_API_KEY"] = ""  # Put your key here 
+os.environ["OPENAI_API_KEY"] = "sk-proj-P7ZrB0WHp2LCnz0UaqwFT3BlbkFJ89eOZu6wDkGbxacuI1ww"  # Put your key here 
 
 # Set up the RAG components
 embeddings = OpenAIEmbeddings()
-llm = ChatOpenAI(model_name='gpt-3.5-turbo')
+# llm = ChatOpenAI(model_name='gpt-3.5-turbo')
+
+# Initialize Groq API
+groq_api_key = "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"  # Replace with your actual Groq API key
+model = 'llama3-8b-8192'
+llm = ChatGroq(
+            groq_api_key=groq_api_key, 
+            model_name=model
+    )
+    
+
 prompt = ChatPromptTemplate.from_template("""
 Answer the following question based only on the provided context:
 
